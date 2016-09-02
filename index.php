@@ -20,7 +20,7 @@ include "buttons.php";
     	<link rel="stylesheet" href="main.css">
 	</head>
     <body>
-		<h1 id="titleH1"><?php echo $absent ; ?></h1>
+		<h3 id="titleH1"><?php echo $absent ; ?></h3>
 		<button id="shuffle" type="button"><?php echo $shuffle ; ?></button>
         <button id="doInverse" type="button"><?php echo $present ; ?></button>
         <button id="nocover" type="button"><?php echo $shownames ; ?></button>
